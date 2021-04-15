@@ -136,7 +136,6 @@ function multiplyAnyArray(dynamicArray) {
 var total=1;
 for (var i=0;i<dynamicArray.length;i++){
   total = multiply(total,dynamicArray[i])[0];
-
 }
 return[total,'The numbers '+dynamicArray+' have a product of '+total+'.'];
 }
